@@ -1,12 +1,64 @@
-# Data Analytics Portfolio — Aaliyah Orloff
+# Data Analytics Portfolio
+### Aaliyah Orloff | MBA, Data Analytics | Solution Management & Decision Support
 
-Sample work demonstrating ETL pipeline development, data cleaning, and audit logging skills relevant to campaign data operations.
+This portfolio contains sample projects demonstrating the technical skills directly relevant to campaign data operations, decision support analysis, and client reporting.
 
-## ETL Pipeline — Marketing Campaign Data
-A Python pipeline that ingests raw marketing campaign data, performs cleaning and validation, separates clean from flagged records, and produces a full audit log.
+---
+
+## Project 1 — ETL Pipeline: Marketing Campaign Data
+
+**File:** `etl_pipeline.py`
+
+A Python ETL pipeline that processes raw marketing campaign data through four stages — Extract, Transform, Load, and Log.
+
+**What it does:**
+- Ingests raw customer and campaign records
+- Removes exact duplicates and duplicate customer IDs
+- Standardizes inconsistent field values
+- Validates email formats and zip codes
+- Separates clean records from flagged ones
+- Writes a full audit log of every transformation
+
+**Output files:**
+- `output_clean.csv` — records that passed all validation, ready for client delivery
+- `output_flagged.csv` — records held for remediation
+- `etl_run_log.csv` — full audit trail of the pipeline run
 
 **Tools:** Python, Pandas
-**Skills:** ETL, deduplication, data validation, audit logging, SLA compliance
+
+---
+
+## Project 2 — Data Quality Audit Report
+
+**File:** `data_quality_audit.py`
+
+A Python audit script that runs five categories of data quality checks on any marketing dataset and produces a detailed report.
+
+**Checks performed:**
+- Completeness — null value counts per field
+- Duplicates — exact row duplicates and duplicate key fields
+- Format validity — email and zip code format validation
+- Outliers — statistical anomaly detection using standard deviation
+- Consistency — field value standardization checks
+
+**Output files:**
+- `data_quality_report.csv` — detailed results for every check
+- `data_quality_summary.csv` — high level pass/warn/fail summary
+
+**Tools:** Python, Pandas, NumPy
+
+---
+
+## Skills Demonstrated
+- ETL pipeline development
+- Data cleaning and transformation
+- Data quality auditing and validation
+- SLA compliance and audit logging
+- Campaign data processing
+- Python, Pandas, NumPy, SQL
+
+---
 
 ## About
-MBA in Data Analytics | 3 years experience in solution management, data analysis, and campaign operations
+Three years of experience in solution management, data analysis, and campaign operations across healthcare research and engineering sectors. MBA in Data Analytics from LSU Shreveport.
+
