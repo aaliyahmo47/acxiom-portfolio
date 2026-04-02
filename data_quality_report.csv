@@ -1,0 +1,17 @@
+check,field,issue_count,issue_pct,status,detail
+Completeness,customer_id,1,6.7%,WARN,1 null value(s) found
+Completeness,first_name,1,6.7%,WARN,1 null value(s) found
+Completeness,last_name,0,0.0%,PASS,No nulls
+Completeness,email,0,0.0%,PASS,No nulls
+Completeness,zip_code,1,6.7%,WARN,1 null value(s) found
+Completeness,segment,0,0.0%,PASS,No nulls
+Completeness,campaign_id,1,6.7%,WARN,1 null value(s) found
+Completeness,response_flag,0,0.0%,PASS,No nulls
+Completeness,record_date,0,0.0%,PASS,No nulls
+Completeness,spend_amount,0,0.0%,PASS,No nulls
+Duplicates,all_fields,1,6.7%,FAIL,1 exact duplicate row(s)
+Duplicates,customer_id,1,6.7%,FAIL,1 duplicate customer_id(s)
+Format,email,2,13.3%,WARN,2 invalid email format(s)
+Format,zip_code,2,13.3%,WARN,2 invalid zip code(s)
+Outliers,spend_amount,1,6.7%,WARN,"1 outlier(s) detected beyond 3 standard deviations (mean: $441.65, std: $1261.51)"
+Consistency,segment,2,40.0%,WARN,"Non-standard values found: ['prospect', 'PROSPECT']"

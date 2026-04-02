@@ -1,0 +1,2 @@
+report_timestamp,total_records,total_checks,checks_passed,checks_warned,checks_failed,total_issues_found,overall_status
+2026-04-02 13:36:51,15,16,6,8,2,13,FAIL
