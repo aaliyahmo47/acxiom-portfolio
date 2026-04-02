@@ -1,0 +1,2 @@
+run_timestamp,raw_record_count,clean_record_count,flagged_record_count,pass_rate,issues_found,issue_detail
+2026-04-02 12:51:12,12,8,2,66.7%,4,Removed 1 duplicate customer_id(s) | Dropped 1 record(s) with null customer_id | Flagged 1 record(s) with invalid email | Flagged 2 record(s) with invalid zip code

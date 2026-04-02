@@ -1,0 +1,9 @@
+customer_id,first_name,last_name,email,zip_code,segment,campaign_id,response_flag,record_date,processed_at
+1001.0,James,Holloway,j.holloway@email.com,72015,Prospect,C001,1,2025-01-15,2026-04-02 12:51:12
+1002.0,Tanya,Reed,tanya.reed@email.com,71101,Active,C002,0,2025-01-15,2026-04-02 12:51:12
+1003.0,Marcus,Sullivan,marcus.s@email.com,72034,Lapsed,C001,1,2025-01-16,2026-04-02 12:51:12
+1004.0,Lisa,Chang,lisa.chang@email.com,90210,Active,C003,1,2025-01-16,2026-04-02 12:51:12
+1005.0,Derek,Webb,derek.webb@email.com,71105,Prospect,C002,0,2025-01-17,2026-04-02 12:51:12
+1007.0,Unknown,Brooks,brooks@email.com,72015,Lapsed,C003,0,2025-01-18,2026-04-02 12:51:12
+1008.0,Kevin,Nash,kevin.nash@email.com,72032,Prospect,C001,1,2025-01-19,2026-04-02 12:51:12
+1009.0,Priya,Patel,priya.p@email.com,10001,Active,C003,1,2025-01-19,2026-04-02 12:51:12
